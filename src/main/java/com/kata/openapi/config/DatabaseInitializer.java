@@ -16,7 +16,7 @@ public class DatabaseInitializer {
 
     @PostConstruct
     public void init() {
-        while (userService.getAllUsers().size() < 3) {
+        while (userService.getAllUsers().size() < 2) {
             User user = new User("James",
                     "Brown",
                     27);
